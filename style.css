@@ -9,6 +9,7 @@ body{
     width: 100%;
    
 }
+
 ul{
     background-color: black;
     padding: 20px;
@@ -96,8 +97,68 @@ div.relative {
   .center{
     background-color: red;
     height: 200px;
-    width: 45%;
+    width: 95%;
     margin: auto;
   }
 
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important;
+    background-color: rgb(0, 73, 33);
+   
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 2px solid white;
+    
+}
+li a:hover{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+}
+
+li a.active {
+    background-color: #4a8b00;
+    color: white;
+  }
+    
+   .nav3{
+    height: 300px;
+    width: 100% !important;
+    background-color: rgb(0, 255, 242);
+   } 
+   .ul3{
+    list-style-type: none !important;
+    background-color: rgb(36, 0, 241) !important;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden !important;
+}
+.ul3 li{
+    float: left !important;
+    border-right: 1px solid white !important;
+}
+.ul3 li a{
+    display: block !important;
+   text-decoration: none !important;
+   color: blanchedalmond !important;
+   padding: 16px !important;
+   text-align: center !important;
+ 
+}
+.ul3 li a:hover {
+    background-color: #252121 !important;
+  }
+  .ul3 li .active{
+    background-color: rgb(55, 102, 17) !important;
+  }
+  
 
